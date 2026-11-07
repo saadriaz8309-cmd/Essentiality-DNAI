@@ -187,7 +187,7 @@ def run(raw_dir: Path = RAW_DIR, out_dir: Path = PROCESSED_DIR) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    parser.add_argument("--raw-dir", type=Path, default=RAW_DIR)
+    parser.add_argument("--raw-dir", type=lambda s: Path(s).expanduser(), default=RAW_DIR)
     parser.add_argument("--out-dir", type=Path, default=PROCESSED_DIR)
     args = parser.parse_args()
     summary = run(args.raw_dir, args.out_dir)
