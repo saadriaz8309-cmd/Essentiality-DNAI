@@ -1,0 +1,10 @@
+## FlyBase FBgn-Annotation ID Correspondence Table
+## Generated: fixture
+##
+#gene_symbol	organism_abbreviation	primary_FBgn#	secondary_FBgn#(s)	annotation_ID	secondary_annotation_ID(s)
+Act5C	Dmel	FBgn0000042	FBgn0000043,FBgn0099999	CG4027	
+w	Dmel	FBgn0003996		CG2759	
+mir-1	Dmel	FBgn0262432		CR43201	
+geneC	Dmel	FBgn0001234	FBgn0099999	CG1234	CG9999
+Dsim\Act	Dsim	FBgn0200001		GD1	
+## Finished

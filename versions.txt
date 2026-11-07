@@ -1,0 +1,3 @@
+flybase_release=FB2026_03
+genome_release=r6.69
+string_version=12.0

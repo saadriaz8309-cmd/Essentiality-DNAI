@@ -1,0 +1,9 @@
+## FlyBase Gene-Transcript-Polypeptide table
+#organism	gene_type	gene_ID	gene_symbol	gene_fullname	annotation_ID	transcript_type	transcript_ID	transcript_symbol	polypeptide_ID	polypeptide_symbol
+Dmel	protein_coding_gene	FBgn0000042	Act5C	Actin 5C	CG4027	mRNA	FBtr0100662	Act5C-RA	FBpp0100030	Act5C-PA
+Dmel	protein_coding_gene	FBgn0000042	Act5C	Actin 5C	CG4027	mRNA	FBtr0100663	Act5C-RB	FBpp0100031	Act5C-PB
+Dmel	protein_coding_gene	FBgn0000042	Act5C	Actin 5C	CG4027	mRNA	FBtr0100663	Act5C-RB	FBpp0100031	Act5C-PB
+Dmel	protein_coding_gene	FBgn0003996	w	white	CG2759	mRNA	FBtr0070220	w-RA	FBpp0070209	w-PA
+Dmel	ncRNA_gene	FBgn0262432	mir-1	microRNA 1	CR43201	miRNA	FBtr0304171	mir-1-RM		
+Dmel	protein_coding_gene	FBgn0001234	geneC	gene C	CG1234	pseudogene	FBtr0009999	geneC-RA		
+Dmel	protein_coding_gene	FBgn0007777	newgene	new gene	CG7777	mRNA	FBtr0007777	newgene-RA	FBpp0007777	newgene-PA
